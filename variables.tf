@@ -18,6 +18,7 @@ variable "secrets" {
     "ssh.username"             = "centos"
     "ses.username"             = "AKIA2YMKGBG3ZI4Z4AMP"
     "ses.password"             = "BD5KcDWjzuCO+R/azBzJhsot8raURKe94AUT6/kU3LAA"
+    "grafana.apikey"           = "glsa_kNF8KxQYCzi9G53pNnaWt7TgfmvS4ixQ_95844bda"
   }
 }
 

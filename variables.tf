@@ -7,6 +7,7 @@ variable "parameters" {
     "dev.expense.rds.username"              = "admin1"
     "dev.expense.rds.endpoint"              = "dev-expense-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend_endpoint" = "https://backend-dev.rdevopsb73.online/"
+    "expense.newrelic.account"              = "4346146"
   }
 }
 
@@ -19,7 +20,9 @@ variable "secrets" {
     "ses.username"             = "AKIA2YMKGBG3ZI4Z4AMP"
     "ses.password"             = "BD5KcDWjzuCO+R/azBzJhsot8raURKe94AUT6/kU3LAA"
     "grafana.apikey"           = "glsa_kNF8KxQYCzi9G53pNnaWt7TgfmvS4ixQ_95844bda"
+    "expense.newrelic.key"     = "NRAK-7Z84T2QE62VG05D1EDXD4KZ0140"
   }
 }
+
 
 

@@ -22,6 +22,7 @@ variable "secrets" {
     "grafana.apikey"           = "glsa_kNF8KxQYCzi9G53pNnaWt7TgfmvS4ixQ_95844bda"
     "dev.expense.frontend.newrelic.key"     = "NRAK-7Z84T2QE62VG05D1EDXD4KZ0140"
     "dev.expense.backend.newrelic.key"     = "46f91710a2e46a2bd588b90e467e0a28FFFFNRAL"
+    "elasticsearch.password"     = "yI+8R*ggn8weoxdh3fye"
   }
 }
 

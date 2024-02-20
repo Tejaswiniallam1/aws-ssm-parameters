@@ -8,6 +8,8 @@ variable "parameters" {
     "dev.expense.rds.endpoint"              = "dev-expense-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend_endpoint" = "https://backend-dev.rdevopsb73.online/"
     "newrelic.account"                      = "4346146"
+    "dev.expense.frontend.app_version"      = "1.0.1"
+    "dev.expense.backend.app_version"       = "1.0.1"
   }
 }
 
@@ -23,6 +25,8 @@ variable "secrets" {
     "dev.expense.frontend.newrelic.key" = "NRAK-7Z84T2QE62VG05D1EDXD4KZ0140"
     "dev.expense.backend.newrelic.key"  = "46f91710a2e46a2bd588b90e467e0a28FFFFNRAL"
     "elasticsearch.password"            = "yI+8R*ggn8weoxdh3fye"
+    "artifactory.user"                  = "admin"
+    "artifactory.password"              = "Admin123"
   }
 }
 

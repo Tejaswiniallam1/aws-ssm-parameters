@@ -21,7 +21,7 @@ variable "secrets" {
     "ssh.username"                      = "centos"
     "ses.username"                      = "AKIA2YMKGBG3ZI4Z4AMP"
     "ses.password"                      = "BD5KcDWjzuCO+R/azBzJhsot8raURKe94AUT6/kU3LAA"
-    "grafana.apikey"                    = "glsa_kNF8KxQYCzi9G53pNnaWt7TgfmvS4ixQ_95844bda"
+    "grafana.apikey"                    = "glsa_JxoVV6XBnJ413UOJmpq7ywBJ5CNMcrRU_406ebd6e"
     "dev.expense.frontend.newrelic.key" = "NRAK-7Z84T2QE62VG05D1EDXD4KZ0140"
     "dev.expense.backend.newrelic.key"  = "46f91710a2e46a2bd588b90e467e0a28FFFFNRAL"
     "elasticsearch.password"            = "yI+8R*ggn8weoxdh3fye"

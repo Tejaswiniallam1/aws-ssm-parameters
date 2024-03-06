@@ -40,6 +40,17 @@ variable "secrets" {
     "prod.expense.rds.password"          = "ExpenseApp123"
     "prod.expense.frontend.newrelic.key" = "NRAK-7Z84T2QE62VG05D1EDXD4KZ0140"
     "prod.expense.backend.newrelic.key"  = "46f91710a2e46a2bd588b90e467e0a28FFFFNRAL"
+
+
+    ## RoboShop Project
+    "dev.roboshop.rds.username"      = "admin1"
+    "dev.roboshop.rds.password"      = "RoboShop12345"
+    "dev.roboshop.docdb.username"    = "admin1"
+    "dev.roboshop.docdb.password"    = "RoboShop12345"
+    "dev.roboshop.rabbitmq.username" = "roboshop"
+    "dev.roboshop.rabbitmq.password" = "roboshop123"
+
+
   }
 }
 

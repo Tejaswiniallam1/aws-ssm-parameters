@@ -17,6 +17,8 @@ variable "parameters" {
     "prod.expense.frontend.app_version"      = "1.0.1"
     "prod.expense.backend.app_version"       = "1.0.1"
 
+    # RoboShop Project
+    "dev.roboshop.docdb.endpoint"            = "dev-roboshop-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com"
 
   }
 }

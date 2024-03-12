@@ -29,6 +29,13 @@ variable "parameters" {
     "dev.roboshop.shipping.DB_HOST" = "dev-mysql-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
     "dev.roboshop.rds.endpoint" = "dev-mysql-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
 
+    "dev.roboshop.payment.CART_HOST" = "cart"
+    "dev.roboshop.payment.CART_PORT" = "80"
+    "dev.roboshop.payment.USER_HOST" = "user"
+    "dev.roboshop.payment.USER_PORT" = "80"
+    "dev.roboshop.payment.AMQP_HOST" = "rabbitmq-dev.rdevopsb73.online"
+    "dev.roboshop.payment.AMQP_USER" = "roboshop"
+    "dev.roboshop.payment.AMQP_PASS" = "roboshop123"
   }
 }
 

@@ -25,6 +25,8 @@ variable "parameters" {
     "dev.roboshop.cart.REDIS_HOST" = "dev-roboshop-elasticache.nud0cy.0001.use1.cache.amazonaws.com"
     "dev.roboshop.cart.CATALOGUE_HOST" = "catalogue"
     "dev.roboshop.cart.CATALOGUE_PORT" = "80"
+    "dev.roboshop.shipping.CART_ENDPOINT" = "cart"
+    "dev.roboshop.shipping.DB_HOST" = "dev-mysql-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
 
   }
 }

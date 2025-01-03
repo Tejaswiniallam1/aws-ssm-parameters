@@ -5,15 +5,15 @@ variable "key_id" {
 variable "parameters" {
   default = {
     "dev.expense.rds.username"              = "admin1"
-    # "dev.expense.rds.endpoint"              = "dev-expense-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
-    # "dev.expense.frontend.backend_endpoint" = "https://backend-dev.tejudevops77.online/"
+    "dev.expense.rds.endpoint"              = "dev-expense-rds.chq08ieekynp.us-east-1.rds.amazonaws.com"
+    "dev.expense.frontend.backend_endpoint" = "https://backend-dev.tejudevops77.online/"
     # "newrelic.account"                      = "4346146"
     # "dev.expense.frontend.app_version"      = "1.0.1"
     # "dev.expense.backend.app_version"       = "1.0.1"
     #
-    # "prod.expense.rds.username"              = "admin1"
-    # "prod.expense.rds.endpoint"              = "prod-expense-rds.cbvsbeoyxek4.us-east-1.rds.amazonaws.com"
-    # "prod.expense.frontend.backend_endpoint" = "https://backend-prod.rdevopsb73.online/"
+    "prod.expense.rds.username"              = "admin1"
+    "prod.expense.rds.endpoint"              = "dev-expense-rds.chq08ieekynp.us-east-1.rds.amazonaws.com"
+    "prod.expense.frontend.backend_endpoint" = "https://backend-prod.rdevopsb73.online/"
     # "prod.expense.frontend.app_version"      = "1.0.1"
     # "prod.expense.backend.app_version"       = "1.0.1"
     #
